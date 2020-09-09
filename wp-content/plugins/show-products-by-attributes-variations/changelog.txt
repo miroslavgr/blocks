@@ -1,0 +1,29 @@
+*** Products By Attributes & Variations for WooCommerce Change log ***
+
+2020-04-21 - version 1.2.5
+* Issue fixed when update module from old version to new version and on shop page products disappers.
+
+2020-04-14 - version 1.2.4
+* Add new feature: Sort order for variations to reorder single variations on the shop & archive pages.
+
+2020-04-11 - version 1.2.3
+* Fixed product spaces issue when variation is excluded.
+* Fixed 500 error issue on plugin activation that occurs sometime with shared hostings.
+* Fixed categories uncheck issue in admin panel.
+* Fixed redirect to the product page on add to cart from shop page.
+
+2020-03-29 - version 1.2.2
+* Fixed CSS conflict with drop downs in admin panel.
+
+2020-01-08 - version 1.2.1
+* Fixed Typos
+
+2020-01-03 - version 1.2.0
+* Change the logic of displaying variations on shop page, now admin have to choose on which products or categories products variations he/she want to display.
+
+2019-11-20 - version 1.1.0
+* Typos fixes.
+
+2019-10-24 - version 1.0.0
+* Initial release of the plugin.
+

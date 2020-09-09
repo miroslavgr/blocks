@@ -1,0 +1,141 @@
+//FOOTER
+//====================
+.page-footer{
+	padding: 0 15px;
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	@include media-breakpoint-up(xl){
+		right: 100px;
+		left: 100px;
+		padding: 30px 0;
+		position: absolute;
+	}
+	.sub-footer{
+		text-align: center;
+		.social-icons{
+			font-size: 13px;
+			display: block;
+			margin-bottom: 20px;
+			i{
+				margin: 0 12px;
+			}
+		}
+		.copyright{
+			color: #888888;
+			font-size: 15px;
+		}
+		.footer-links,{
+			color: #888888;
+			
+			margin-top: 30px;
+			li{
+				display: block;
+				a{
+					margin: 0 12px;
+					display: block;
+					font-size: 15px;
+				}
+			}
+		}
+		@include media-breakpoint-up(sm){
+			.footer-links{
+				li{
+					display: inline-block;
+					a{
+						position: relative;
+						&:hover{
+							border-bottom: 1px solid transparent;
+						}
+						&:after{
+							content: '';
+							width: 0;
+							height: 1px;
+							background-color: #888888;
+							transition: 0.3s ease-in-out;
+							position: absolute;
+							bottom: -1px;
+							left: 0;
+						}
+						&:hover{
+							&:after{
+								width: 100%;
+							}
+						}
+					}	
+				}
+			}
+
+			.copyright a {
+				position: relative;
+				display: inline-block;
+				&:hover{
+					border-bottom: 1px solid transparent;
+				}
+				&:after{
+					content: '';
+					width: 0;
+					height: 1px;
+					background-color: #888888;
+					transition: 0.3s ease-in-out;
+					position: absolute;
+					bottom: -1px;
+					left: 0;
+				}
+				&:hover{
+					&:after{
+						width: 100%;
+					}
+				}
+			}
+		}
+		@include media-breakpoint-up(xl){
+			text-align: left;
+			.footer-menu{
+				margin: 0;
+			}
+			.social-icons{
+				display: inline-block;
+				margin-bottom: 0;
+				i{
+					margin-right: 24px;
+					margin-left: 0;
+				}
+			}
+			.footer-links{
+				text-align: right;
+				padding: 0;
+				margin-top: 0;
+				a{
+					margin-left: 24px;
+					margin-right: 0;
+					border-bottom: 1px solid transparent;
+					transition: 0.2s ease-in-out;
+					// &:hover{
+					// 	border-bottom: 1px solid #888888;
+					// }
+				}
+			}
+
+			.copyright a {
+				border-bottom: 1px solid transparent;
+				transition: 0.6s ease-in-out;
+				// &:hover{
+				// 	border-bottom: 1px solid #888888;
+				// }
+			}
+		}
+	}
+}
+
+body.transparent_footer {
+	.container-fluid,
+	.single-content {
+		padding-bottom: 0;
+	}
+
+	.page-footer {
+		z-index: 2;
+	}
+}

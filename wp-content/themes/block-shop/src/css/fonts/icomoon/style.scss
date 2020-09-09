@@ -1,0 +1,344 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?jc2rch') format('woff2'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?jc2rch') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?jc2rch') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?jc2rch##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-grid-veiw-1 {
+  &:before {
+    content: $blockshop-grid-veiw-1; 
+  }
+}
+.icon-grid-view-2 {
+  &:before {
+    content: $blockshop-grid-view-2; 
+  }
+}
+.icon-download {
+  &:before {
+    content: $blockshop-download; 
+  }
+}
+.icon-filter {
+  &:before {
+    content: $blockshop-filter; 
+  }
+}
+.icon-left-arrow {
+  &:before {
+    content: $blockshop-left-arrow; 
+  }
+}
+.icon-my-account-logout-24x24 {
+  &:before {
+    content: $blockshop-my-account-logout-24x24; 
+  }
+}
+.icon-right-arrow {
+  &:before {
+    content: $blockshop-right-arrow; 
+  }
+}
+.icon-scroll-to-top {
+  &:before {
+    content: $blockshop-scroll-to-top; 
+  }
+}
+.icon-sort-by-arrow-dark {
+  &:before {
+    content: $blockshop-sort-by-arrow-dark; 
+  }
+}
+.icon-x-times-8x8-dark {
+  &:before {
+    content: $blockshop-x-times-8x8-dark; 
+  }
+}
+.icon-uniE90B {
+  &:before {
+    content: $blockshop-uniE90B; 
+  }
+}
+.icon-uniE90C {
+  &:before {
+    content: $blockshop-uniE90C; 
+  }
+}
+.icon-uniE90D {
+  &:before {
+    content: $blockshop-uniE90D; 
+  }
+}
+.icon-enlarge {
+  &:before {
+    content: $blockshop-enlarge; 
+  }
+}
+.icon-play-16x16-dark {
+  &:before {
+    content: $blockshop-play-16x16-dark; 
+  }
+}
+.icon-play-16x16-hover {
+  &:before {
+    content: $blockshop-play-16x16-hover; 
+  }
+}
+.icon-quick-view-16x16-dark-hover {
+  &:before {
+    content: $blockshop-quick-view-16x16-dark-hover; 
+  }
+}
+.icon-quick-view-16x16-dark {
+  &:before {
+    content: $blockshop-quick-view-16x16-dark; 
+  }
+}
+.icon-wishlist-16x16-dark-hover {
+  &:before {
+    content: $blockshop-wishlist-16x16-dark-hover; 
+  }
+}
+.icon-wishlist-16x16-dark {
+  &:before {
+    content: $blockshop-wishlist-16x16-dark; 
+  }
+}
+.icon-external-16x16-dark {
+  &:before {
+    content: $blockshop-external-16x16-dark; 
+  }
+}
+.icon-more-16x16-dark {
+  &:before {
+    content: $blockshop-more-16x16-dark; 
+  }
+}
+.icon-share-16x16-dark-alt {
+  &:before {
+    content: $blockshop-share-16x16-dark-alt; 
+  }
+}
+.icon-info-24x24 {
+  &:before {
+    content: $blockshop-info-24x24; 
+  }
+}
+.icon-success-24x24 {
+  &:before {
+    content: $blockshop-success-24x24; 
+  }
+}
+.icon-warning-24x24 {
+  &:before {
+    content: $blockshop-warning-24x24; 
+  }
+}
+.icon-selector-arrow-dark {
+  &:before {
+    content: $blockshop-selector-arrow-dark; 
+  }
+}
+.icon-cart-20x20 {
+  &:before {
+    content: $blockshop-cart-20x20; 
+  }
+}
+.icon-close-20x20 {
+  &:before {
+    content: $blockshop-close-20x20; 
+  }
+}
+.icon-login-20x20 {
+  &:before {
+    content: $blockshop-login-20x20; 
+  }
+}
+.icon-menu-20x20 {
+  &:before {
+    content: $blockshop-menu-20x20; 
+  }
+}
+.icon-search-20x20 {
+  &:before {
+    content: $blockshop-search-20x20; 
+  }
+}
+.icon-comment {
+  &:before {
+    content: $blockshop-comment; 
+  }
+}
+.icon-minus-icon-dark {
+  &:before {
+    content: $blockshop-minus-icon-dark; 
+  }
+}
+.icon-plus-icon-dark {
+  &:before {
+    content: $blockshop-plus-icon-dark; 
+  }
+}
+.icon-Group {
+  &:before {
+    content: $blockshop-Group; 
+  }
+}
+.icon-star {
+  &:before {
+    content: $blockshop-star; 
+  }
+}
+.icon-star-full {
+  &:before {
+    content: $blockshop-star-full; 
+  }
+}
+.icon-social-facebook-circled {
+  &:before {
+    content: $blockshop-social-facebook-circled; 
+  }
+}
+.icon-social-google-maps {
+  &:before {
+    content: $blockshop-social-google-maps; 
+  }
+}
+.icon-social-apple-app-store {
+  &:before {
+    content: $blockshop-social-apple-app-store; 
+  }
+}
+.icon-social-google-play {
+  &:before {
+    content: $blockshop-social-google-play; 
+  }
+}
+.icon-social-behance {
+  &:before {
+    content: $blockshop-social-behance; 
+  }
+}
+.icon-social-foursquare {
+  &:before {
+    content: $blockshop-social-foursquare; 
+  }
+}
+.icon-social-github {
+  &:before {
+    content: $blockshop-social-github; 
+  }
+}
+.icon-social-help-center {
+  &:before {
+    content: $blockshop-social-help-center; 
+  }
+}
+.icon-social-line {
+  &:before {
+    content: $blockshop-social-line; 
+  }
+}
+.icon-social-reddit {
+  &:before {
+    content: $blockshop-social-reddit; 
+  }
+}
+.icon-social-tumblr {
+  &:before {
+    content: $blockshop-social-tumblr; 
+  }
+}
+.icon-social-viber {
+  &:before {
+    content: $blockshop-social-viber; 
+  }
+}
+.icon-social-vkcom {
+  &:before {
+    content: $blockshop-social-vkcom; 
+  }
+}
+.icon-social-weibo {
+  &:before {
+    content: $blockshop-social-weibo; 
+  }
+}
+.icon-social-whatsapp {
+  &:before {
+    content: $blockshop-social-whatsapp; 
+  }
+}
+.icon-social-wordpress {
+  &:before {
+    content: $blockshop-social-wordpress; 
+  }
+}
+.icon-social-yelp {
+  &:before {
+    content: $blockshop-social-yelp; 
+  }
+}
+.icon-social-linkedin {
+  &:before {
+    content: $blockshop-social-linkedin; 
+  }
+}
+.icon-social-medium {
+  &:before {
+    content: $blockshop-social-medium; 
+  }
+}
+.icon-social-google-plus-circled {
+  &:before {
+    content: $blockshop-social-google-plus-circled; 
+  }
+}
+.icon-social-pinterest {
+  &:before {
+    content: $blockshop-social-pinterest; 
+  }
+}
+.icon-social-facebook-messenger {
+  &:before {
+    content: $blockshop-social-facebook-messenger; 
+  }
+}
+.icon-social-twitter {
+  &:before {
+    content: $blockshop-social-twitter; 
+  }
+}
+.icon-social-instagram {
+  &:before {
+    content: $blockshop-social-instagram; 
+  }
+}
+.icon-social-youtube-play-button-logo {
+  &:before {
+    content: $blockshop-social-youtube-play-button-logo; 
+  }
+}
+

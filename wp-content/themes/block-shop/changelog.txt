@@ -1,0 +1,57 @@
+*** Block Shop Changelog ***
+
+2020-08-06 - version 1.1.8
+* Fixed: Product Filter by Attribute - multiple select dropdown display issue
+* Compatibility updates for the upcoming WordPress 5.5
+
+2020-06-05 - version 1.1.7
+* New: Social Media Customizer Control that allows for custom Icons and Social Profile links
+* New: Option to change position of Social Media icons
+* Fixed: WooCommerce store notice won't stay closed after dismissal
+* Maintenance: SkyVerge Plugin compatibility updates
+* Maintenance: Various small styling fixes for Microsoft Edge browser
+* Various maintenance tasks, small styling fixes and improvements were made for consistency
+
+2020-03-12 - version 1.1.6
+* WooCommerce Product Reviews Pro plugin compatibility updates
+* Various maintenance tasks, small styling fixes and improvements were made for consistency
+
+2020-01-20 - version 1.1.5
+* Compatibility updates for the upcoming WooCommerce 3.9 plugin
+
+2019-12-20 - version 1.1.4
+* New: RTL compatibility
+* Added: block-shop.pot template for theme localization
+* Compatibility updates for WooCommerce Product Addons plugin
+* Compatibility updates for WooCommerce One Page Checkout plugin
+* Checkout Page - style improvements for payment methods list
+* Various maintenance tasks, small styling fixes and improvements were made for consistency
+
+2019-11-14 - version 1.1.3
+* WooCommerce Stripe Gateway plugin compatibility updates
+
+2019-11-05 - version 1.1.2
+* WooCommerce 3.8 compatibility updates
+* Upcoming WordPress 5.3 compatibility updates
+* Fixed: My Account display issue on Addresses page when "Force shipping to the customer billing address" option is enabled
+
+2019-10-02 - version 1.1.1
+* Fixed: Login form display issues
+* Fixed: Lost Password page display issues
+* Fixed: Checkout page forms - specific country field display issue
+* Fixed: Shop page active filters title
+* Various maintenance tasks, small styling fixes and improvements were made for consistency
+
+2019-09-25 - version 1.1.0
+* New: Customizer font control that supports Google Fonts and all web safe fonts
+* Fixed: Search field display issue on Safari browser
+* Fixed: Checkout page checkbox display issue
+* Added: Checkout page billing and shipping forms floating labels
+* WooCommerce Stripe Gateway plugin compatibility updates
+* WooCommerce Pre-Order plugin compatibility updates
+* WooCommerce Bookings plugin compatibility updates
+* WooCommerce Subscriptions plugin compatibility updates
+* Various maintenance tasks, small styling fixes and improvements were made for consistency
+
+2019-08-07 - version 1.0.0
+* Inital release

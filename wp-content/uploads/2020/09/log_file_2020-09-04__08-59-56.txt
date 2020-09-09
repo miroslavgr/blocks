@@ -1,0 +1,48 @@
+
+---Downloaded files---
+The import files for: Default were successfully downloaded!
+Initial max execution time = 40
+Files info:
+Site URL = https://pitlane.shop
+Data file = /home/pitlane/domains/pitlane.shop/public_html/wp-content/themes/block-shop/core/demo/blockshop.wordpress.xml
+Widget file = /home/pitlane/domains/pitlane.shop/public_html/wp-content/themes/block-shop/core/demo/blockshop.widgets.wie
+Customizer file = /home/pitlane/domains/pitlane.shop/public_html/wp-content/themes/block-shop/core/demo/blockshop.export.dat
+Redux files:
+not defined!
+
+---pt-ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Widgets : 
+
+Text - About - Imported
+Products by Rating - Top rated products - Imported
+Products - Featured Products - Imported
+
+Shop Filters : 
+
+Product Categories - Product Categories - Imported
+Filter Products by Attribute - Filter by Color - Imported
+Filter Products by Attribute - Filter by Size - Imported
+Filter Products by Price - Filter by price - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

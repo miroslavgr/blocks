@@ -1,0 +1,875 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Block Shop\n"
+"POT-Creation-Date: 2019-12-18 10:55+0200\n"
+"PO-Revision-Date: 2019-12-18 10:54+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: *.min.css\n"
+"X-Poedit-SearchPathExcluded-2: src\n"
+
+#: 404.php:10
+msgid "404 - Not Found"
+msgstr ""
+
+#: comments.php:16
+msgid "No Replies on"
+msgstr ""
+
+#: comments.php:16
+msgid "Reply on"
+msgstr ""
+
+#: comments.php:16
+msgid "Replies on"
+msgstr ""
+
+#: comments.php:58
+msgid "Previous"
+msgstr ""
+
+#: comments.php:59
+msgid "Next"
+msgstr ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: core/customizer/backend/section-blog.php:34
+msgid "Display &quot;Blog Category Navigation&quot;"
+msgstr ""
+
+#: core/customizer/backend/section-blog.php:59
+msgid "Highlight First 5 Posts"
+msgstr ""
+
+#: core/customizer/backend/section-blog.php:84
+msgid "Display &quot;Horizontal Widget Area&quot;"
+msgstr ""
+
+#: core/customizer/backend/section-blog.php:108
+msgid "Pagination Style"
+msgstr ""
+
+#: core/customizer/backend/section-blog.php:112
+#: core/customizer/backend/section-shop.php:113
+msgid "Page Numbering"
+msgstr ""
+
+#: core/customizer/backend/section-blog.php:113
+#: core/customizer/backend/section-shop.php:114
+msgid "Load More Button"
+msgstr ""
+
+#: core/customizer/backend/section-blog.php:114
+#: core/customizer/backend/section-shop.php:115
+msgid "Infinite Scrolling"
+msgstr ""
+
+#: core/customizer/backend/section-blog.php:137
+msgid "Featured Image on Single Posts"
+msgstr ""
+
+#: core/customizer/backend/section-blog.php:141
+msgid "None"
+msgstr ""
+
+#: core/customizer/backend/section-blog.php:142
+msgid "Full Size"
+msgstr ""
+
+#: core/customizer/backend/section-blog.php:143
+msgid "Large Size"
+msgstr ""
+
+#: core/customizer/backend/section-blog.php:144
+msgid "Medium Size"
+msgstr ""
+
+#: core/customizer/backend/section-fonts.php:33
+msgid "Base Font Family"
+msgstr ""
+
+#: core/customizer/backend/section-fonts.php:34
+msgid ""
+"Block Shop supports all fonts on <a href=\"https://fonts.google.com\" target="
+"\"_blank\">Google Fonts</a> and all <a href=\"https://www.w3schools.com/"
+"cssref/css_websafe_fonts.asp\" target=\"_blank\">web safe fonts</a>."
+msgstr ""
+
+#: core/customizer/backend/section-fonts.php:37
+msgid "Enter the font name"
+msgstr ""
+
+#: core/customizer/backend/section-fonts.php:65
+msgid "Base Font Size"
+msgstr ""
+
+#: core/customizer/backend/section-fonts.php:66
+msgid ""
+"The Base Font Size refers to the size applied to the paragraph text. All "
+"other elements, such as headings, links, buttons, etc will adjusted "
+"automatically to keep the hierarchy of font sizes based on this one size. "
+"Easy-peasy!"
+msgstr ""
+
+#: core/customizer/backend/section-fonts.php:93
+msgid "Background Color"
+msgstr ""
+
+#: core/customizer/backend/section-fonts.php:115
+msgid "Text Color"
+msgstr ""
+
+#: core/customizer/backend/section-footer.php:22
+msgid "&#169; 2019 &#8212; Built with Block Shop & WooCommerce."
+msgstr ""
+
+#: core/customizer/backend/section-footer.php:32
+msgid "Footer Text Note"
+msgstr ""
+
+#: core/customizer/backend/section-footer.php:57
+msgid "Display &quot;Back To Top&quot;"
+msgstr ""
+
+#: core/customizer/backend/section-footer.php:58
+msgid ""
+"An arrow icon will be displayed in the bottom right corner of the screen as "
+"soon as you start scrolling. Available on screens larger than 1024px"
+msgstr ""
+
+#: core/customizer/backend/section-header.php:34
+msgid "Display &quot;Search&quot; Icon"
+msgstr ""
+
+#: core/customizer/backend/section-header.php:59
+msgid "Display &quot;My Account&quot; Icon"
+msgstr ""
+
+#: core/customizer/backend/section-header.php:84
+msgid "Display &quot;Cart&quot; Icon"
+msgstr ""
+
+#: core/customizer/backend/section-product.php:34
+msgid "Display &quot;Category Navigation&quot;"
+msgstr ""
+
+#: core/customizer/backend/section-product.php:57
+msgid "Number of Related Products"
+msgstr ""
+
+#: core/customizer/backend/section-shop.php:35
+msgid "Display &quot;Category Menu&quot;"
+msgstr ""
+
+#: core/customizer/backend/section-shop.php:60
+msgid "Display Border for Product Images"
+msgstr ""
+
+#: core/customizer/backend/section-shop.php:85
+msgid "Display a 2nd Image on Hover"
+msgstr ""
+
+#: core/customizer/backend/section-shop.php:109
+msgid "Shop Pagination Style"
+msgstr ""
+
+#: core/customizer/backend/sections.php:20
+msgid "Header"
+msgstr ""
+
+#: core/customizer/backend/sections.php:28
+msgid "Footer"
+msgstr ""
+
+#: core/customizer/backend/sections.php:36
+msgid "Fonts and Colors"
+msgstr ""
+
+#: core/customizer/backend/sections.php:44
+msgid "Shop"
+msgstr ""
+
+#: core/customizer/backend/sections.php:52
+msgid "Product Page"
+msgstr ""
+
+#: core/customizer/backend/sections.php:60
+msgid "Blog"
+msgstr ""
+
+#: core/customizer/backend/sections.php:68
+msgid "Social Media"
+msgstr ""
+
+#: core/customizer/backend/sections.php:69
+msgid ""
+"For each social media link entered below, an icon will show up on the bottom "
+"right corner of the screen. On screens smaller than 1024px, the icons will "
+"show up as part of the Menu."
+msgstr ""
+
+#: core/customizer/class-blockshop-opt.php:43
+msgid ""
+"&#169; 2019 &#8212; Built with <a href=\"https://blockshop.wp-theme.design"
+"\">Block Shop</a> & <a href=\"https://woocommerce.com\">WooCommerce</a>."
+msgstr ""
+
+#: core/functions/function-setup.php:81
+msgid "Vertical Menu"
+msgstr ""
+
+#: core/functions/function-setup.php:82
+msgid "Primary Menu"
+msgstr ""
+
+#: core/functions/function-setup.php:83
+msgid "Footer Menu"
+msgstr ""
+
+#: core/functions/function-setup.php:145
+msgid "Load More"
+msgstr ""
+
+#: core/functions/function-setup.php:148
+msgid "Choose an Option"
+msgstr ""
+
+#: core/functions/function-setup.php:161
+msgid "Blog Widgets"
+msgstr ""
+
+#: core/functions/function-setup.php:172
+msgid "Shop Filters"
+msgstr ""
+
+#: core/functions/function-setup.php:205
+msgid "You're all set to import Block Shop's demo content."
+msgstr ""
+
+#: core/functions/function-setup.php:208
+msgid "Begin Importing"
+msgstr ""
+
+#: core/functions/function-setup.php:212
+msgid "Skip Demo Content"
+msgstr ""
+
+#: core/functions/function-setup.php:230
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: core/functions/wc/actions.php:38
+msgid "Continue shopping"
+msgstr ""
+
+#: core/functions/wc/actions.php:71 core/functions/wc/filters.php:470
+msgid "Out of stock"
+msgstr ""
+
+#: core/functions/wc/actions.php:74 core/functions/wc/filters.php:473
+msgid "Sale"
+msgstr ""
+
+#: core/functions/wc/actions.php:100
+msgid "Register"
+msgstr ""
+
+#: core/functions/wc/actions.php:101
+msgid "Login"
+msgstr ""
+
+#: core/functions/wc/actions.php:177
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: core/functions/wc/filters.php:251
+msgid "Filter"
+msgstr ""
+
+#: core/metaboxes/page.php:37
+msgid "Transparent Header"
+msgstr ""
+
+#: core/metaboxes/page.php:41
+msgid "Show Page Title"
+msgstr ""
+
+#: core/metaboxes/page.php:45
+msgid "Transparent Footer"
+msgstr ""
+
+#: core/metaboxes/post.php:28
+msgid "Show Featured Image"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: core/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:393
+#: core/tgm/class-tgm-plugin-activation.php:921
+#: core/tgm/class-tgm-plugin-activation.php:2647
+#: core/tgm/class-tgm-plugin-activation.php:3698
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:394
+#: core/tgm/class-tgm-plugin-activation.php:3273
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:395
+#: core/tgm/class-tgm-plugin-activation.php:3066
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: core/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1030
+#: core/tgm/class-tgm-plugin-activation.php:1040
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1040
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1229
+#: core/tgm/class-tgm-plugin-activation.php:3062
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: core/tgm/class-tgm-plugin-activation.php:2096
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2387
+msgid "Required"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2390
+msgid "Recommended"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2406
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2409
+msgid "External Source"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2412
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2429
+msgid "Not Installed"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2433
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2435
+msgid "Active"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2441
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2444
+msgid "Requires Update"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2447
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: core/tgm/class-tgm-plugin-activation.php:2456
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: core/tgm/class-tgm-plugin-activation.php:2502
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/tgm/class-tgm-plugin-activation.php:2506
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/tgm/class-tgm-plugin-activation.php:2510
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/tgm/class-tgm-plugin-activation.php:2514
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2596
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2604
+msgid "Installed version:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2612
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2624
+msgid "Available version:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2647
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2661
+msgid "Plugin"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2662
+msgid "Source"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2663
+msgid "Type"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2667
+msgid "Version"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2668
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/tgm/class-tgm-plugin-activation.php:2717
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/tgm/class-tgm-plugin-activation.php:2722
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/tgm/class-tgm-plugin-activation.php:2728
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2798
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2831
+msgid "Install"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2837
+msgid "Update"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2840
+msgid "Activate"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2871
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2873
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2914
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2916
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3022
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3048
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3272
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/tgm/class-tgm-plugin-activation.php:3616
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: core/tgm/class-tgm-plugin-activation.php:3619
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:3621
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3625
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:3627
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3627
+#: core/tgm/class-tgm-plugin-activation.php:3635
+msgid "Show Details"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3627
+#: core/tgm/class-tgm-plugin-activation.php:3635
+msgid "Hide Details"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3628
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/tgm/class-tgm-plugin-activation.php:3630
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3633
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:3635
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3636
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/tgm/class-tgm-plugin-activation.php:3638
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: index.php:40
+msgid "All Articles"
+msgstr ""
+
+#: index.php:111
+msgid "Older posts"
+msgstr ""
+
+#: index.php:112
+msgid "Newer posts"
+msgstr ""
+
+#: template-parts/header/menu-mobile.php:13
+#: template-parts/header/menu-vertical.php:28
+msgid "Menu"
+msgstr ""
+
+#: template-parts/header/menu-primary.php:56
+msgid "My account"
+msgstr ""
+
+#: template-parts/header/offcanvas-cart.php:16
+msgid "Cart"
+msgstr ""
+
+#: template-parts/header/offcanvas-search.php:41
+msgid "Search"
+msgstr ""
+
+#: template-parts/posts/content-grid.php:27
+#: template-parts/posts/content-masonry.php:27
+msgid "Read More"
+msgstr ""
+
+#: template-parts/posts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: URL
+#: template-parts/posts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/posts/content-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/posts/content-none.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/posts/content-single.php:16
+msgid "in"
+msgstr ""
+
+#: template-parts/posts/content-single.php:37
+msgid "on"
+msgstr ""
+
+#: template-parts/posts/content-single.php:42
+msgid "No Comments"
+msgstr ""
+
+#: template-parts/posts/content-single.php:42
+msgid "Comment"
+msgstr ""
+
+#: template-parts/posts/content-single.php:42
+msgid "Comments"
+msgstr ""
+
+#: template-parts/posts/content-single.php:53
+msgid "Pages:"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Block Shop"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://blockshop.wp-theme.design/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A block based shop theme for WooCommerce"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "GetBowtied"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://getbowtied.com/"
+msgstr ""

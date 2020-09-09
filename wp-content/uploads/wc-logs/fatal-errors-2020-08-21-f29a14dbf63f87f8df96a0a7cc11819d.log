@@ -1,0 +1,2 @@
+2020-08-21T06:31:58+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/class-wp-term.php на ред 198
+

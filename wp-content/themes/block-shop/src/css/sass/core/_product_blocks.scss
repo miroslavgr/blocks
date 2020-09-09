@@ -1,0 +1,66 @@
+body { 
+	.gbt_18_pagination {
+		left: 14px;
+		z-index: 9999;
+	}
+	&.overlay {
+		.gbt_18_pagination {
+			z-index: 1;
+		}
+	}
+
+	.wp-block-getbowtied-lookbook-distortion {
+		&.alignfull {
+			h2 {
+				font-size: 2.8em;
+				line-height: 1.2em;
+			}
+		} 
+		&.alignwide {
+			h2 {
+				font-size: 2.0em;
+				line-height: 1.2em;
+			}
+		}
+
+		> p:last-child {
+			display: none;
+		}
+		
+		.gbt_18_distorsion_lookbook_content {
+
+			.added_to_cart.wc-forward {
+				display: table;
+				font-size: 18px;
+				line-height: 1.23;
+			}
+			.add_to_cart_button.ajax_add_to_cart.blockshop_add_to_cart{
+	            &.loading{
+	                border: 2px solid #000;
+	                box-sizing: content-box;
+	                animation: loader 2s infinite ease;
+	                display: block;
+	                font-size: 0;
+	                width: 18px;
+	                height: 19px;
+	                box-shadow: none;
+	                background: none;
+	                outline: none;
+	                margin-left: 36px;
+	                &:after{
+	                    position: absolute;
+	                    width: 18px;
+	                    height: 17px;
+	                    left: 0;
+	                    background-color: #000;
+	                    content: '';
+	                    animation: loader-inner 2s infinite ease-in;
+	                }
+	            }
+	            &.added{
+	                display: none;
+	            }
+	        }
+    	}
+	}
+}

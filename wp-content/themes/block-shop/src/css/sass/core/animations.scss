@@ -1,0 +1,134 @@
+//ANIMATION
+@keyframes fadeAnimate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes wishListIn{
+	0% {
+		opacity: 0;
+		content: $blockshop-wishlist-16x16-dark;
+	}
+	0.1%{
+		content: $blockshop-wishlist-16x16-dark-hover;
+		opacity: 0;
+	}
+	100% {
+		content: $blockshop-wishlist-16x16-dark-hover;
+		opacity: 1;
+	}
+}
+@keyframes wishListOut{
+	0% {
+		content: $blockshop-wishlist-16x16-dark-hover;
+		opacity: 0;
+	}
+	0.1%{
+		content: $blockshop-wishlist-16x16-dark;
+		opacity: 0;
+	}
+	100% {
+		content: $blockshop-wishlist-16x16-dark;
+		opacity: 1;
+	}
+}
+@keyframes quikViewIn{
+	0% {
+		opacity: 0;
+		content: "\e912";
+	}
+	0.1%{
+		content: "\e911";
+		opacity: 0;
+	}
+	100% {
+		content: "\e911";
+		opacity: 1;
+	}
+}
+@keyframes quikViewOut{
+	0% {
+		content: "\e911";
+		opacity: 0;
+	}
+	0.1%{
+		content: "\e912";
+		opacity: 0;
+	}
+	100% {
+		content: "\e912";
+		opacity: 1;
+	}
+}
+@keyframes pulsate {
+    0% {
+      	transform: scale(0.1, 0.1); 
+      	opacity: 0.0;
+    }
+    50% {
+     	opacity: 1.0;
+    }
+    100% {
+      	transform: scale(1.2, 1.2); 
+      	opacity: 0.0;
+    }
+}
+@keyframes filterOpen{
+	0% {
+		opacity: 0;
+		content: "\e904";
+	}
+	0.1%{
+		content: "\e921";
+		opacity: 0;
+	}
+	100% {
+		content: "\e921";
+		opacity: 1;
+	}
+}
+@keyframes filterClose{
+	0% {
+		content: "\e921";
+		opacity: 0;
+	}
+	0.1%{
+		content: "\e904";
+		opacity: 0;
+	}
+	100% {
+		content: "\e904";
+		opacity: 1;
+	}
+}
+@keyframes arrowDown{
+	0% {
+		opacity: 0;
+		content: '\e909';
+	}
+	0.1%{
+		content: "\e908";
+		opacity: 0;
+	}
+	100% {
+		content: "\e908";
+		opacity: 1;
+	}
+}
+@keyframes arrowUp{
+	0% {
+		content: "\e908";
+		opacity: 0;
+	}
+	0.1%{
+		content: '\e909';
+		opacity: 0;
+	}
+	100% {
+		content: '\e909';
+		opacity: 1;
+	}
+}

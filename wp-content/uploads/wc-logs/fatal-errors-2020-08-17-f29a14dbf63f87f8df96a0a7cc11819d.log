@@ -1,0 +1,18 @@
+2020-08-17T06:45:50+00:00 CRITICAL Cannot redeclare wporg_shortcodes_init() (previously declared in /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php:23) в /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php на ред 606
+
+2020-08-17T06:45:50+00:00 CRITICAL Cannot redeclare wporg_shortcodes_init() (previously declared in /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php:23) в /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php на ред 606
+
+2020-08-17T06:45:50+00:00 CRITICAL Cannot redeclare wporg_shortcodes_init() (previously declared in /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php:23) в /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php на ред 606
+
+2020-08-17T06:45:50+00:00 CRITICAL Cannot redeclare wporg_shortcodes_init() (previously declared in /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php:23) в /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php на ред 606
+
+2020-08-17T06:45:50+00:00 CRITICAL Cannot redeclare wporg_shortcodes_init() (previously declared in /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php:23) в /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php на ред 606
+
+2020-08-17T06:45:50+00:00 CRITICAL Cannot redeclare wporg_shortcodes_init() (previously declared in /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php:23) в /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php на ред 606
+
+2020-08-17T06:45:52+00:00 CRITICAL Cannot redeclare wporg_shortcodes_init() (previously declared in /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php:23) в /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php на ред 606
+
+2020-08-17T07:40:08+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH) в /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php на ред 26
+
+2020-08-17T07:40:08+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH) в /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php на ред 26
+

@@ -1,0 +1,316 @@
+.afwssv_div{ width: 95%; float: left; padding: 20px; border: #0d0f10 solid 1px;}
+
+.afwssv_div .inner_div{ width: 100%; float: left; margin-top: 10px; margin-bottom: 10px;}
+
+.afwssv_div .inner_div label { width: 30%; float: left; font-weight: bold;}
+
+.afwssv_div h2{ font-size: 18px !important; padding-left:0px !important; font-weight: bold !important; }
+
+.afwssv_div .inputf{ width: 50%; float: right; height: 40px;}
+
+
+
+.selected_items_div{ display: none;}
+
+.addify-table-optoin .select2-container{ width: 100% !important; }
+
+.all_cats { width: 97%; border: solid 1px #b6b1b1; border-radius: 4px; padding: 10px; float: left; }
+
+.par_cat { width: auto; padding: 5px; }
+
+.child_cat{ width: auto; padding:3px 15px; }
+
+div#addify_settings_tabs {
+    width: 98.7%;
+    margin-top: 20px;
+    float: left;
+    background: #fff;
+}
+
+.addify_setting_tab_ulli {
+    width: 24%;
+    float: left;
+}
+
+.addify-logo img {
+    padding: 8px 0px;
+}
+.addify-logo {
+    background: #e8f6fe;
+    text-align: center;
+}
+
+.addify-logo h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0px;
+    color: #000;
+    font-size: 30px
+}
+
+.afrfq_input_class {
+    width: 100%;
+    background: rgba(204, 204, 204, 0.22) !important;
+    line-height: 1.75em;
+    padding: 10px;
+}
+
+/*  tabs */
+.ui-tabs.ui-tabs-vertical {
+    padding: 0;
+    width: 42em;
+}
+.ui-tabs.ui-tabs-vertical .ui-widget-header {
+    border: none;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav {
+    float: left;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px;
+    background: #43525a;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
+    clear: left;
+    width: 100%;
+    margin: 0.2em 0;
+    border-width: 1px 0 1px 1px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a {
+    display: block;
+    width: 100%;
+    padding: 12px 4px 8px 20px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:hover {
+    cursor: pointer;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: 0.2em;
+    padding-bottom: 0;
+    background: #9b5c8f;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li:last-child {
+    margin-bottom: 10px;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+    float: left;
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+    left: -1px;
+}
+li.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active::before {
+    right: 0;
+    border: 9px solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #fff;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a span {
+    padding-right: 20px;
+}
+li.ui-state-default.ui-corner-top.ui-state-hover {
+    background: #95be45;
+}
+
+.addify-tabs-content {
+    width: 72%;
+    float: right;
+    margin-right: 4px;
+    padding: 0px 20px;
+}
+.addify-top-content h1 {
+    padding: 0;
+    text-align: left;
+    color: #000;
+    line-height: 1.2em;
+    font-size: 2.0em;
+    font-weight: 600;
+}
+
+.addify-singletab h2 {
+    margin: 3em 0 2em;
+    padding: 8px 15px;
+    background-color: #f4f2f2;
+    line-height: 1.5;
+}
+
+table.addify-table-optoin {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr.addify-option-field th {
+    width: 27% !important;
+    padding: 20px 60px 20px 0;
+}
+tr.addify-option-field td {
+    width: 70% !important;
+}
+.addify-option-field th .option-head h3 {
+    text-align: left;
+    margin: 8px 0px;
+    line-height: 26px;
+}
+.addify-option-field th span.description p {
+    font-style: normal;
+    text-align: left;
+    font-weight: 100;
+}
+.addify-option-field td .addify-input-field {
+    width: auto;
+    background: rgba(204, 204, 204, 0.22);
+    line-height: 1.75em;
+    padding-left: 0.75em;
+}
+tr.addify-option-field {
+    border-bottom: 1px solid #E7E7E7;
+}
+
+p.submit{ float: right;}
+
+/*checkboxes*/
+#radios, #rad, #like_dislike, #like_dislike_cat, #like_dislike_qty, #like_dislike_tog, #like_dislike_drop, #ext_comment, #ext_email_noti {
+    position: relative;
+    z-index: 5;
+    background: #e6e6e6;
+    width: 200px;
+}
+#radios input[type="radio"],
+#rad input[type="radio"],
+#like_dislike input[type="radio"],
+#like_dislike_cat input[type="radio"],
+#like_dislike_qty input[type="radio"],
+#like_dislike_tog input[type="radio"],
+#like_dislike_drop input[type="radio"],
+#ext_comment input[type="radio"],
+#ext_email_noti input[type="radio"] {
+    display: none;
+}
+#bckgrnd, .labels,
+#radback, .radlab,
+#like_dislikeb, .extndc,
+#like_dislikeb_cat, #like_dislikeb_qty, #like_dislikeb_tog, #like_dislikeb_drop, .extndc,
+#ext_commentb, .extcc,
+#emailb, .emailc {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: -3px;
+    z-index: 2;
+    cursor: pointer;
+    outline:1px solid rgba(0, 0, 0, 0.1) !important
+}
+#bckgrnd, #radback, #like_dislikeb, #like_dislikeb_cat, #like_dislikeb_qty, #like_dislikeb_tog, #like_dislikeb_drop, #ext_commentb, #emailb {
+    background-color: #9b5c8f;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+#rad1:checked ~ #bckgrnd,
+#rad11:checked ~ #radback,
+#extld0:checked ~ #like_dislikeb,
+#extld2:checked ~ #like_dislikeb_cat,
+#extld22:checked ~ #like_dislikeb_qty,
+#extld222:checked ~ #like_dislikeb_tog,
+#extld2222:checked ~ #like_dislikeb_drop,
+#extc0:checked ~ #ext_commentb,
+#extn1:checked ~ #emailb  {
+    transform: translateX(0);
+    transition: transform 0.2s ease-in-out;
+}
+#rad2:checked ~ #bckgrnd,
+#rad22:checked ~ #radback,
+#extld1:checked ~ #like_dislikeb,
+#extld3:checked ~ #like_dislikeb_cat,
+#extld33:checked ~ #like_dislikeb_qty,
+#extld333:checked ~ #like_dislikeb_tog,
+#extld3333:checked ~ #like_dislikeb_drop,
+#extc1:checked ~ #ext_commentb,
+#extn2:checked ~ #emailb   {
+    transform: translateX(100px);
+    transition: transform 0.2s ease-in-out;
+}
+input.questionpermission:checked + .radlab,
+input.userfaq:checked + .labels,
+input.likespermission:checked + .extndc,
+input.commentapp:checked + .extcc,
+input.ext_notify_email:checked + .emailc {
+    color: white;
+}
+
+.select-css {
+    display: block;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em !important;
+    height: 46px !important;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+    linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+.select-css::-ms-expand {
+    display: none;
+}
+.select-css:hover {
+    border-color: #888;
+}
+.select-css:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222;
+    outline: none;
+}
+.select-css option {
+    font-weight:normal;
+}
+
+.af_number_class{ width: 100%;}
+
+.af_number_class {
+    width: 100%;
+    background: rgba(204, 204, 204, 0.22) !important;
+    line-height: 1.75em;
+    padding: 10px;
+}
+
+input[type="number"] { height: 50px; !important;}
+
+.counter1, .counter2, .counter3{ display: none;}
+
+em { color: red;}
+
+.afrfq_input_class {
+    width: 100%;
+    background: rgba(204, 204, 204, 0.22) !important;
+    line-height: 1.75em;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.addify-option-field td{ padding-top: 20px;}

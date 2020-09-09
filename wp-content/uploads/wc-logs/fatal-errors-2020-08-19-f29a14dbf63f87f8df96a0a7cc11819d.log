@@ -1,0 +1,48 @@
+2020-08-19T06:11:46+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 964
+
+2020-08-19T06:14:07+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 964
+
+2020-08-19T07:37:09+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 964
+
+2020-08-19T08:01:11+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 964
+
+2020-08-19T08:07:54+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 964
+
+2020-08-19T08:24:43+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 964
+
+2020-08-19T08:30:32+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 966656 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-admin/includes/class-wp-posts-list-table.php на ред 1297
+
+2020-08-19T08:57:28+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 964
+
+2020-08-19T20:17:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_products(), 0 passed in /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php on line 21 and exactly 1 expected in /home/cognitiv/devel.royalhomesbg.com/wp-content/plugins/woocommerce/includes/wc-product-functions.php:28
+Stack trace:
+#0 /home/cognitiv/devel.royalhomesbg.com/wp-content/themes/storefront/functions.php(21): wc_get_products()
+#1 /home/cognitiv/devel.royalhomesbg.com/wp-includes/shortcodes.php(343): dump_wc_func('', '', 'dump_wc')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/cognitiv/devel.royalhomesbg.com/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(dump_w...', 'do_shortcode_ta...', '[dump_wc]\n')
+#4 /home/cognitiv/devel.royalhomesbg.com/wp-includes/class-wp-hook.php(287): do_shortcode('[dump_wc]\n')
+#5 /home/cognitiv/devel.royalhomesbg.com/wp-includes/plugin.php(206): WP_Hook->apply_filters('[dump_wc]\n', Array)
+#6 /home/cognitiv/devel.royalhomesbg.com/wp-includes/post-t в /home/cognitiv/devel.royalhomesbg.com/wp-content/plugins/woocommerce/includes/wc-product-functions.php на ред 28
+
+2020-08-19T20:25:30+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/wp-db.php на ред 2103
+
+2020-08-19T20:26:05+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 960
+
+2020-08-19T20:52:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/cognitiv/devel.royalhomesbg.com/wp-includes/class-wp-term.php на ред 198
+
+2020-08-19T20:53:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/cognitiv/devel.royalhomesbg.com/wp-includes/functions.php на ред 6339
+
+2020-08-19T20:54:08+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/cognitiv/devel.royalhomesbg.com/wp-includes/taxonomy.php на ред 1529
+
+2020-08-19T20:54:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/cognitiv/devel.royalhomesbg.com/wp-includes/taxonomy.php на ред 3338
+
+2020-08-19T20:55:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/cognitiv/devel.royalhomesbg.com/wp-includes/taxonomy.php на ред 1481
+
+2020-08-19T20:57:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/cognitiv/devel.royalhomesbg.com/wp-includes/class-wp-term.php на ред 126
+
+2020-08-19T20:58:40+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/cognitiv/devel.royalhomesbg.com/wp-includes/formatting.php на ред 2242
+
+2020-08-19T21:00:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/cognitiv/devel.royalhomesbg.com/wp-includes/taxonomy.php на ред 1529
+
+2020-08-19T21:01:50+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/cognitiv/devel.royalhomesbg.com/wp-includes/class-wp-term.php на ред 198
+

@@ -1,0 +1,18 @@
+// SkyVerge Plugin
+.pickup-location-calendar{
+    > div {
+	       position: relative;
+           > input{
+           	visibility: visible !important;
+           	opacity: 1 !important;
+           	position: static !important;
+           }
+       }
+    button.ui-datepicker-trigger{
+    	position: absolute;
+    	right: 0;
+    	top: 50%;
+    	transform: translateY(-50%);
+    	cursor: pointer;
+    }
+}

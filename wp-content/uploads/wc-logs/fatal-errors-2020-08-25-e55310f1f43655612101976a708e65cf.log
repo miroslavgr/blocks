@@ -1,0 +1,12 @@
+2020-08-25T17:52:53+00:00 CRITICAL Uncaught Error: Call to undefined function find_tyre_in_wc() in /opt/lampp/htdocs/dev.pitlane/wp-content/themes/storefront/functions.php:109
+Stack trace:
+#0 /opt/lampp/htdocs/dev.pitlane/wp-includes/shortcodes.php(343): primex_import_func('', '', 'primex_import')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /opt/lampp/htdocs/dev.pitlane/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(primex...', 'do_shortcode_ta...', '[primex_import]...')
+#3 /opt/lampp/htdocs/dev.pitlane/wp-includes/class-wp-hook.php(287): do_shortcode('[primex_import]...')
+#4 /opt/lampp/htdocs/dev.pitlane/wp-includes/plugin.php(206): WP_Hook->apply_filters('[primex_import]...', Array)
+#5 /opt/lampp/htdocs/dev.pitlane/wp-includes/post-template.php(253): apply_filters('the_content', '[primex_import]')
+#6 /opt/lampp/htdocs/dev.pitlane/wp-content/themes/storefront/inc/storefront-template-functions.php(351): the_content()
+#7 /opt/lampp/htdocs/dev.pitlane/wp-includes/class-wp-hook.php(287): storefront_page_content('')
+#8 / в /opt/lampp/htdocs/dev.pitlane/wp-content/themes/storefront/functions.php на ред 109
+

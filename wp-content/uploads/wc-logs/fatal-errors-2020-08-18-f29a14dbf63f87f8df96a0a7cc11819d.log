@@ -1,0 +1,32 @@
+2020-08-18T12:26:44+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 2285568 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/class.wp-scripts.php на ред 405
+
+2020-08-18T12:59:15+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 964
+
+2020-08-18T13:15:28+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-content/plugins/woocommerce/i18n/states.php на ред 1455
+
+2020-08-18T13:35:14+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1458176 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-admin/includes/template.php на ред 364
+
+2020-08-18T13:47:57+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 950
+
+2020-08-18T14:20:12+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 266240 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/wp-db.php на ред 2672
+
+2020-08-18T14:27:08+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 964
+
+2020-08-18T14:36:44+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 960
+
+2020-08-18T14:48:46+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 135168 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/wp-db.php на ред 2672
+
+2020-08-18T18:35:25+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 964
+
+2020-08-18T18:43:43+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/cognitiv/devel.royalhomesbg.com/wp-includes/wp-db.php на ред 1989
+
+2020-08-18T19:22:02+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 1032192 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-admin/includes/template.php на ред 364
+
+2020-08-18T20:03:03+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 964
+
+2020-08-18T20:10:23+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 950
+
+2020-08-18T21:00:14+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/meta.php на ред 950
+
+2020-08-18T21:14:53+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) в /home/cognitiv/devel.royalhomesbg.com/wp-includes/wp-db.php на ред 2666
+

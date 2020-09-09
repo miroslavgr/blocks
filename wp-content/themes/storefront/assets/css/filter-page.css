@@ -1,0 +1,736 @@
+.home-search-engine {
+  min-height: calc(100vh - 100px);
+  padding: 0;
+  position: relative !important;
+}
+
+@media (min-width: 992px) {
+  .home-search-engine:before {
+    background: transparent
+      url('http://www.pitlane.bg/pub/media/wysiwyg/pitlane/warehouse.jpg')
+      no-repeat center center / cover;
+    content: '';
+    display: block;
+    height: calc(100% - 27px);
+    left: 50%;
+    position: absolute;
+    top: -1px;
+    z-index: -1;
+    width: 100vw;
+    transform: translateX(-50%);
+  }
+}
+
+.home-search-engine .tire-icon {
+  background: url('data:image/png;base64,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')
+    no-repeat center 15px;
+  height: 87px;
+  margin-top: 60px;
+  width: 327px;
+}
+
+.home-search-engine .list {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.radio-group {
+  margin-bottom: 15px;
+}
+
+.radio-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.radio-group input {
+  display: none;
+}
+.radio-group label {
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  float: left;
+  margin-left: -1px;
+  padding: 5px 10px !important;
+  width: 33.3333%;
+}
+.radio-group label:hover,
+.radio-group label.active {
+  background: #ddd;
+}
+.radio-group label:first-of-type {
+  border-radius: 10px 0 0 10px;
+  margin-left: 0;
+}
+.radio-group label:last-of-type {
+  border-radius: 0 10px 10px 0;
+}
+.radio-group .vehicle-all,
+.radio-group .vehicle-4x4,
+.radio-group .vehicle-van,
+.radio-group .vehicle-truck,
+.radio-group .vehicle-passenger {
+  margin-top: 0;
+  height: auto;
+  line-height: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+.radio-group .vehicle-all:before,
+.radio-group .vehicle-4x4:before,
+.radio-group .vehicle-van:before,
+.radio-group .vehicle-truck:before,
+.radio-group .vehicle-passenger:before {
+  display: block;
+  margin: 0 auto;
+}
+.radio-group .vehicle-all:before {
+  content: '*';
+  color: #323232;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.radio-group .season-letni,
+.radio-group .season-zimni,
+.radio-group .season-vse-sezonni,
+.radio-group .season-summer,
+.radio-group .season-winter,
+.radio-group .season-all-season {
+  margin-top: 0;
+  height: auto;
+  line-height: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+.radio-group .season-letni:before,
+.radio-group .season-zimni:before,
+.radio-group .season-vse-sezonni:before,
+.radio-group .season-summer:before,
+.radio-group .season-winter:before,
+.radio-group .season-all-season:before {
+  display: block;
+  margin: 0 auto;
+}
+.options-group {
+  margin-bottom: 5px;
+  font-size: 0;
+}
+.options-group input {
+  display: none;
+}
+.options-group label {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  height: 50px;
+  margin: 0 5px;
+  padding: 10px 15px !important;
+  width: 82px;
+  color: #aaa;
+  text-align: center;
+  vertical-align: top;
+}
+.options-group label:hover,
+.options-group label.active {
+  background: #ddd;
+}
+.options-group label:first-of-type {
+  margin-left: 0;
+}
+.options-group label:last-of-type {
+  margin-right: 0;
+}
+.options-group label .icon {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1em;
+}
+/** Vehicles */
+.vehicle-4x4,
+.vehicle-van,
+.vehicle-truck,
+.vehicle-passenger {
+  display: inline-block;
+  margin-top: -8px;
+  height: 32px;
+  position: relative;
+  line-height: 32px;
+  vertical-align: middle;
+}
+.vehicle-4x4:before,
+.vehicle-van:before,
+.vehicle-truck:before,
+.vehicle-passenger:before {
+  content: '';
+  display: inline-block;
+  height: 32px;
+  width: 53px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+.vehicle-4x4 .season-letni,
+.vehicle-van .season-letni,
+.vehicle-truck .season-letni,
+.vehicle-passenger .season-letni,
+.vehicle-4x4 .season-zimni,
+.vehicle-van .season-zimni,
+.vehicle-truck .season-zimni,
+.vehicle-passenger .season-zimni,
+.vehicle-4x4 .season-vse-sezonni,
+.vehicle-van .season-vse-sezonni,
+.vehicle-truck .season-vse-sezonni,
+.vehicle-passenger .season-vse-sezonni,
+.vehicle-4x4 .season-summer,
+.vehicle-van .season-summer,
+.vehicle-truck .season-summer,
+.vehicle-passenger .season-summer,
+.vehicle-4x4 .season-winter,
+.vehicle-van .season-winter,
+.vehicle-truck .season-winter,
+.vehicle-passenger .season-winter,
+.vehicle-4x4 .season-all-season,
+.vehicle-van .season-all-season,
+.vehicle-truck .season-all-season,
+.vehicle-passenger .season-all-season {
+  margin-left: 20px;
+}
+.vehicle-passenger:before {
+  background: transparent
+    url('http://www.pitlane.bg/pub/static/version1553496817/frontend/Sm/market/bg_BG/images/passenger.png')
+    no-repeat center center / contain;
+}
+.vehicle-4x4:before {
+  background: transparent
+    url('http://www.pitlane.bg/pub/static/version1553496817/frontend/Sm/market/bg_BG/images/suv.png')
+    no-repeat center center / contain;
+}
+.vehicle-van:before {
+  background: transparent
+    url('http://www.pitlane.bg/pub/static/version1553496817/frontend/Sm/market/bg_BG/images/van.png')
+    no-repeat center center / contain;
+}
+.vehicle-truck:before {
+  background: transparent
+    url('http://www.pitlane.bg/pub/static/version1553496817/frontend/Sm/market/bg_BG/images/truck.png')
+    no-repeat center center / contain;
+}
+
+input.ui-autocomplete-input {
+  background: #ffffff
+    url('http://www.pitlane.bg/pub/static/version1553496817/frontend/Sm/market/bg_BG/images/arrow-down.svg')
+    no-repeat right center / 32px !important;
+}
+.ui-helper-hidden {
+  display: none;
+}
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+  content: '';
+  display: table;
+  border-collapse: collapse;
+}
+.ui-helper-clearfix:after {
+  clear: both;
+}
+.ui-helper-clearfix {
+  min-height: 0;
+  /* support: IE7 */
+}
+.ui-helper-zfix {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.ui-front {
+  z-index: 100;
+}
+/* Interaction Cues
+        ----------------------------------*/
+.ui-state-disabled {
+  cursor: default !important;
+}
+/* Icons
+        ----------------------------------*/
+/* states and images */
+.ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+/* Misc visuals
+        ----------------------------------*/
+/* Overlays */
+.ui-widget-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.ui-autocomplete {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: default;
+}
+.ui-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  outline: none;
+}
+.ui-menu .ui-menu {
+  position: absolute;
+}
+.ui-menu .ui-menu-item {
+  position: relative;
+  margin: 0;
+  padding: 3px 1em 3px 0.4em;
+  cursor: pointer;
+  min-height: 0;
+  /* support: IE7 */
+  /* support: IE10, see #8844 */
+  list-style-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');
+}
+.ui-menu .ui-menu-divider {
+  margin: 5px 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  border-width: 1px 0 0 0;
+}
+/* icon support */
+.ui-menu-icons {
+  position: relative;
+}
+.ui-menu-icons .ui-menu-item {
+  padding-left: 2em;
+}
+/* left-aligned */
+.ui-menu .ui-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0.2em;
+  margin: auto 0;
+}
+/* right-aligned */
+.ui-menu .ui-menu-icon {
+  left: auto;
+  right: 0;
+}
+.carsearch-form .ui-helper-hidden-accessible {
+  display: none;
+}
+.ui-autocomplete {
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  width: 218px;
+  border: 1px solid #b0beca;
+  max-height: 350px;
+  overflow-x: hidden;
+}
+.ui-autocomplete .ui-menu-item {
+  border-top: 1px solid #b0beca;
+  display: block;
+  padding: 0;
+  color: #353d44;
+  cursor: pointer;
+}
+.ui-autocomplete .ui-menu-item .ui-corner-all {
+  display: block;
+  height: 100%;
+  padding: 4px 6px;
+  width: 100%;
+}
+.ui-autocomplete .ui-menu-item:first-child {
+  border-top: none;
+}
+.ui-autocomplete .ui-menu-item .ui-state-focus {
+  background-color: #d5e5f4;
+  color: #161a1c;
+}
+
+/** Replaced  .page-main with #content */
+#content form.carsearch-form h2,
+#content form.tiresearch-form h2 {
+  margin-bottom: 30px;
+  font-size: 21px;
+}
+#content form.carsearch-form label,
+#content form.tiresearch-form label {
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 600 !important;
+}
+#content form.carsearch-form select,
+#content form.tiresearch-form select {
+  border-radius: 3px;
+  position: relative;
+  height: 35px;
+}
+#content form.carsearch-form select,
+#content form.tiresearch-form select,
+#content form.carsearch-form .radio-group label,
+#content form.tiresearch-form .radio-group label {
+  color: #333;
+}
+#content form.carsearch-form .loading,
+#content form.tiresearch-form .loading {
+  position: relative;
+}
+#content form.carsearch-form .loading:after,
+#content form.tiresearch-form .loading:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -25px;
+  width: 20px;
+  height: 29px;
+  top: 25px;
+  background: transparent
+    url('https://www.pitlane.bg/pub/static/version1553496817/frontend/Sm/market/bg_BG/images/loading-qv.gif')
+    no-repeat center center / contain;
+}
+#content form.carsearch-form .primary,
+#content form.tiresearch-form .primary {
+  background: #ffa800;
+}
+#content form.carsearch-form .primary:hover,
+#content form.tiresearch-form .primary:hover {
+  background: #555;
+}
+#content form.carsearch-form {
+  padding: 50px 75px 50px 40px;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  #content form.carsearch-form {
+    padding: 25px 15px;
+  }
+}
+#content form.carsearch-form h2 {
+  color: #ccc;
+}
+#content form.carsearch-form label {
+  color: #ccc;
+}
+#content form.carsearch-form .btn {
+  margin-top: 20px;
+  opacity: 1;
+}
+#content form.tiresearch-form {
+  border-radius: 10px 0 0 10px;
+  padding: 50px 40px 50px 75px;
+  position: relative;
+  color: #666;
+}
+#content form.tiresearch-form:before {
+  background: rgba(0, 0, 0, 0.9);
+  bottom: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 300%;
+  z-index: -1;
+}
+#content form.tiresearch-form:after {
+  background: rgba(5, 54, 114, 0.9);
+  bottom: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  right: 100%;
+  top: -1px;
+  width: 300%;
+  z-index: -1;
+}
+@media screen and (max-width: 767px) {
+  #content form.tiresearch-form {
+    padding: 25px 15px;
+    text-align: center;
+  }
+  #content form.tiresearch-form .col-lg-6.col-sm-12.no-padding-left {
+    padding-right: 0;
+  }
+  #content form.tiresearch-form .d-inline-block {
+    text-align: left;
+  }
+  #content form.tiresearch-form .d-inline-block.col-lg-6 {
+    display: block;
+    margin-bottom: 15px;
+  }
+  #content form.tiresearch-form .tire-icon {
+    display: none;
+  }
+}
+#content form.tiresearch-form h2 {
+  color: #fff;
+}
+#content form.tiresearch-form label,
+#content form.tiresearch-form strong {
+  color: #ccc;
+}
+/** End of replacement */
+
+no-padding {
+  padding: 0 !important;
+}
+.no-padding-top {
+  padding-top: 0 !important;
+}
+.no-padding-right {
+  padding-right: 0 !important;
+}
+.no-padding-bottom {
+  padding-bottom: 0 !important;
+}
+.no-padding-left {
+  padding-left: 0 !important;
+}
+.home-title {
+  display: none;
+}
+
+/** Icons for season selection. */
+.season-letni,
+.season-zimni,
+.season-vse-sezonni,
+.season-summer,
+.season-winter,
+.season-all-season {
+  display: inline-block;
+  margin-top: -8px;
+  height: 32px;
+  position: relative;
+  line-height: 32px;
+  vertical-align: middle;
+  text-indent: -9999em;
+}
+.season-letni:before,
+.season-zimni:before,
+.season-vse-sezonni:before,
+.season-summer:before,
+.season-winter:before,
+.season-all-season:before {
+  content: '';
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+.season-letni:before,
+.season-summer:before {
+  background: transparent
+    url('http://www.pitlane.bg/pub/static/version1553496817/frontend/Sm/market/bg_BG/images/summer.png')
+    no-repeat center center / 32px 32px;
+}
+.season-zimni:before,
+.season-winter:before {
+  background: transparent
+    url('http://www.pitlane.bg/pub/static/version1553496817/frontend/Sm/market/bg_BG/images/winter.png')
+    no-repeat center center / 32px 32px;
+}
+.season-all-season:before,
+.season-vse-sezonni:before {
+  background: transparent
+    url('http://www.pitlane.bg/pub/static/version1553496817/frontend/Sm/market/bg_BG/images/all-season.png')
+    no-repeat center center / 32px 32px;
+}
+
+.page-main form.carsearch-form .primary,
+.page-main form.tiresearch-form .primary {
+  background: rgb(255, 168, 0);
+}
+
+/** Overrides */
+.home-search-engine fieldset {
+  background-color: transparent;
+}
+
+.season-letni,
+.season-zimni,
+.season-vse-sezonni,
+.season-summer,
+.season-winter,
+.season-all-season,
+.home-search-engine input[type='radio'] + label {
+  margin-left: 0 !important;
+  font-size: 12px;
+}
+
+.home-search-engine .tire-icon-holder {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.home-search-engine .tire-icon {
+  margin-top: 0;
+  position: absolute;
+  top: 60px;
+  left: -25px;
+}
+
+@media screen and (max-width: 992px) {
+  .home-search-engine .tire-icon-holder {
+    margin-bottom: 0;
+  }
+  #content form.tiresearch-form .tire-icon {
+    display: none;
+  }
+}
+
+#content form.carsearch-form .btn {
+  opacity: 1 !important;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='url'],
+input[type='tel'],
+input[type='search'],
+input[type='number'],
+input[type='datetime'],
+input[type='email'] {
+  height: 35px;
+  font-size: 100%;
+  border: 1px solid #adadad;
+  line-height: 1.66;
+  background-color: #fff;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='url'],
+input[type='tel'],
+input[type='search'],
+input[type='number'],
+input[type='datetime'],
+input[type='email'] {
+  background: #fff;
+  background-clip: padding-box;
+  border: 1px solid #c2c2c2;
+  border-radius: 1px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  height: 32px;
+  line-height: 1.42857143;
+  padding: 0 9px;
+  vertical-align: baseline;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  background-color: rgb(68, 68, 68);
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+button,
+button:focus {
+  border: none !important;
+  overflow: visible;
+  display: inline-block;
+  background: #444;
+  width: auto;
+  margin: 0;
+  height: 35px;
+  line-height: 35px;
+  white-space: nowrap;
+  font-size: 100% !important;
+  text-transform: uppercase;
+  position: relative;
+  padding: 0 20px !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+input[type='checkbox'] + label {
+  margin: 5px;
+}
+
+body .home-search-engine {
+  font-size: 12px;
+  line-height: 1.66;
+}
+
+.radio-group label {
+  white-space: nowrap;
+}
+
+.ui-autocomplete a,
+.ui-autocomplete a:focus,
+.ui-autocomplete a:visited {
+  color: #444444;
+}
+.ui-autocomplete a:hover {
+  text-decoration: none;
+  color: #444444;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/** Since there is no parent "container" class this hack below is needed. */
+.tiresearch-form .row {
+  margin-left: 0;
+  margin-right: 0;
+}
